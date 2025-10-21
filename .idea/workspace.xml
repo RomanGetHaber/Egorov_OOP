@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2d3832-7df7-435d-85bd-a81a842eb244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Egorov_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_5_practic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_7_Point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,8 @@
   "keyToString": {
     "Python.les_5_practic.executor": "Run",
     "Python.les_7_Point.executor": "Run",
+    "Python.lesson10.executor": "Run",
+    "Python.lesson11.executor": "Run",
     "Python.lesson8.executor": "Run",
     "Python.lesson9.executor": "Run",
     "Python.main.executor": "Run",
@@ -69,5 +65,16 @@
       <updated>1760779517424</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -25,6 +25,7 @@ print(account1.__dict__)
 account1.print_public_data()
 
 print(dir(account1))                                  # смотрим все атрибуты и методы, включая приватные
+print(account1.__dict__)                              # смотрим установленные атрибуты и методы, включая приватные
 
 print(account1._BankAccount__passport)                # распечатываем приватный атрибут экземпляра класса
 

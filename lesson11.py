@@ -1,4 +1,4 @@
-# Геттеры и сеттеры, property атрибуты
+# Декоратор Property (Property decorator)
 
 class BankAccount:
     def __init__(self, name, balance):
@@ -19,7 +19,11 @@ class BankAccount:
         print('удаляем баланс')
         del self.__balance
 
-    balance = property(fget=get_balance, fset=set_balance, fdel=delete_balance)  # установка property атрибутов
+    my_balance = property()
+    my_balance = my_balance.getter(get_balance)
+    my_balance = my_balance.setter(set_balance)
+    my_balance = my_balance.deleter(delete_balance)
+
 
 Ivan = BankAccount('Ivan', 100)
 
@@ -32,3 +36,5 @@ w = BankAccount('Piter', 8000)
 
 del w.balance                  # использование property fdel=delete_balance
 print(w.__dict__)
+
+x = property()
