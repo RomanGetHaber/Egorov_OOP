@@ -32,3 +32,7 @@ d = BankAccount('Misha', 300)
 print(d.my_balance)
 d.my_balance = 1000
 print(d.my_balance)
+q = BankAccount('Piter', 80000)
+print(q.my_balance)
+q.my_balance = 8
+print(q.my_balance)

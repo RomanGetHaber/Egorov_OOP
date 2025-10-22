@@ -11,24 +11,29 @@ class BankAccount:
 
     def set_balance(self, value):
         print('бывший баланс ', self.__balance)
-        if not isinstance(value, (int, float)):              # валидация вводимых данных кортежем, если не int и не float
-            raise ValueError('Баланс должен быть числом!')   # выводим ошибку
+        # валидация вводимых данных кортежем, если не int и не float выводим ошибку
+        if not isinstance(value, (int, float)):
+            raise ValueError('Баланс должен быть числом!')
         self.__balance = value
         print('новый баланс ', self.__balance)
     def delete_balance(self):
         print('удаляем баланс')
         del self.__balance
 
-    balance = property(fget=get_balance, fset=set_balance, fdel=delete_balance)  # установка property атрибутов
+    # установка property атрибутов
+    balance = property(fget=get_balance, fset=set_balance, fdel=delete_balance)
 
 Ivan = BankAccount('Ivan', 100)
 
 d = BankAccount('Misha', 300)
 
-d.balance = 777                # использование property fset=set_balance
-print(d.balance)               # использование property fget=get_balance
+# использование property fset=set_balance
+d.balance = 777
+# использование property fget=get_balance
+print(d.balance)
 
 w = BankAccount('Piter', 8000)
 
-del w.balance                  # использование property fdel=delete_balance
+# использование property fdel=delete_balance
+del w.balance
 print(w.__dict__)
