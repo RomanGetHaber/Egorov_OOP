@@ -16,6 +16,7 @@ class BankAccount:
             raise ValueError('Баланс должен быть числом!')
         self.__balance = value
         print('новый баланс ', self.__balance)
+
     def delete_balance(self):
         print('удаляем баланс')
         del self.__balance
@@ -23,7 +24,7 @@ class BankAccount:
     # установка property атрибутов
     balance = property(fget=get_balance, fset=set_balance, fdel=delete_balance)
 
-Ivan = BankAccount('Ivan', 100)
+ivan = BankAccount('Ivan', 100)
 
 d = BankAccount('Misha', 300)
 

@@ -6,11 +6,11 @@ class BankAccount:
         self.__balance = balance
         self.__passport = passport
 
-    def print_public_data(self):                             # метод который читает приватную функцию
+    def print_public_data(self):                             # метод, который читает приватную функцию
         print(self.__print_private_data())
 
-    def print_protected_data(self):                         # защищённые атрибуты допустим (self._name) не понял для чего
-        print(self._name, self._balance, self._passport)
+    def _print_protected_data(self):                         # защищённые атрибуты допустим (self._name) не понял для чего
+        print(self.__name, self.__balance, self.__passport)
 
     def __print_private_data(self):                          # сделали приватным сам метод
         print(self.__name, self.__balance, self.__passport)
@@ -31,5 +31,5 @@ print(account1._BankAccount__passport)                # распечатывае
 
 print(account1._BankAccount__print_private_data())   # распечатываем приватный метод экземпляра класса
 
-                                                    # чтобы защитить по настоящему данные от доступа нужно использовать
-                                                    # модуль который называется accessify
+print(account1._print_protected_data())                                                    # чтобы защитить по настоящему данные от доступа, нужно использовать
+                                                    # модуль, который называется accessify

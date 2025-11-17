@@ -25,7 +25,7 @@ class Otrezok:
         self.x1 = x1
         self.x2 = x2
 
-# такая запись вызовет магический метод __abc__
+# т.к. метод len не принимает отрицательные значения используем abs - такая запись вызовет магический метод __abc__
     def __len__(self):
         return abs(self)
 
@@ -36,3 +36,4 @@ f = Otrezok(55, 5)
 print(len(f))
 print(Otrezok.__dict__)
 print(Lion.__dict__)
+
