@@ -1,10 +1,10 @@
 # магические методы
 # метод __bool__
 
-'''
+"""
 Числа - число будет правдивым, если оно отличается от нуля.
 Строки - если строка состоит хотя бы из одного символа, то она будет 'True'
-Колекции -  пустой список будет False, не пустой True
+Коллекции -  пустой список будет False, не пустой True
 
 print(bool('kf'))  - True
 print(bool(''))    - False
@@ -13,7 +13,7 @@ print(bool(-78))   - True
 print(bool(0))     - False
 print([1])         - True
 print([])          - False
-'''
+"""
 
 
 class Point:
@@ -42,6 +42,7 @@ class Point:
     return self.x != 0 or self.y != 0
     если две координаты равны нулю вернётся False, если хоть одна координата не равна 0, то выражение будет True
     """
+
     def __bool__(self):
         print('call __bool__')
         return self.x != 0 or self.y != 0
@@ -55,5 +56,7 @@ print(bool(p1))
 """
 Не явное использование метода bool, если р2 = True print('Hello')
 """
-if p2:
-    print('hello')
+if p1:
+    print('нормальная точка')
+else:
+    print('точка находится в координатах x=0, y=0')
