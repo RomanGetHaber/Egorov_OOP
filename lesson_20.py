@@ -3,11 +3,16 @@ class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-
+    """
+    При добавлении "def __eq__ - равенстава ==" у объектов пропадает функция хеширования "__hash__" !
+    """
     def __eq__(self, other):
         return isinstance(other, Point) and \
                 self.x == other.x and self.y == other.y
-
+    '''
+    Чтобы точку можно было добавить в качестве ключа в словарь {}, точка должна хешироваться, поэтому добавляем функцию 
+    __hash__. 
+    '''
     def __hash__(self):
         return hash((self.x, self.y))
 
