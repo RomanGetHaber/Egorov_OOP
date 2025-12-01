@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2d3832-7df7-435d-85bd-a81a842eb244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_21_yt_polymorfizm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_21_yt_polymorfizm_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excel/excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excel/грузчики црм, артём.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/less_22_call.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_21_yt_polymorfizm.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_21_yt_polymorfizm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +40,10 @@
     "Python.111.executor": "Run",
     "Python.Point.executor": "Run",
     "Python.Property_practic.executor": "Run",
+    "Python.excel.executor": "Run",
     "Python.les_5_practic.executor": "Run",
     "Python.les_7_Point.executor": "Run",
+    "Python.less_22_call.executor": "Run",
     "Python.lesson10.executor": "Run",
     "Python.lesson11.executor": "Run",
     "Python.lesson12.executor": "Run",
@@ -59,7 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/PycharmProjects/PythonProject/AmoIntegrete.venv"
+    "last_opened_file_path": "F:/PycharmProjects/PythonProject/Egorov_OOP/Excel"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -67,6 +71,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\PythonProject\Egorov_OOP\Excel" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

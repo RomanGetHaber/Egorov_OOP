@@ -37,9 +37,18 @@ class Circle:
     def get_area(self):
         return 3.14 * self.r**2
 
+r1 = Rectangle(2, 5)
+r2 = Rectangle(4, 12)
+sq1 = Square(4)
+cir1 = Circle(12)
+
 def main():
-    r1 = Rectangle(2, 5)
-    print(r1)
+    print(r1, r1.get_area)
+    print(r2, r2.get_area)
+    print(sq1, sq1.get_area)
+    print(cir1, cir1.get_area)
+
+
 
 if __name__ == '__main__':
     main()
