@@ -31,11 +31,11 @@ class Vector:
     # print(v2)
 
     # __setitem__ это метод, который позволяет изменять значения в объекте по индексу или ключу
-    # def __setitem__(self, key, value):
-    #     if 0 <= key < len(self.values):
-    #         self.values[key] = value
-    #     else:
-    #         raise IndexError('Индекс за границами нашей коллекции')
+    def __setitem__(self, key, value):
+        if 0 <= key < len(self.values):
+            self.values[key] = value
+        else:
+            raise IndexError('Индекс за границами нашей коллекции')
 
 # v3 = Vector(3, 12, 9)
 # v3[2] = 'dfksk'
@@ -44,7 +44,7 @@ class Vector:
 # если мы попытаемся удалить значение по индексу (проблема!)
 # v4 = Vector(3, 12, 9)
 # del v4[0]
-# AttributeError: __delitem__
+# получаем ошибку AttributeError: __delitem__
 
     # __delitem__ позволяет удалить значение объекта по ключу
     def __delitem__(self, key):
@@ -69,16 +69,16 @@ class Vector:
 # v6 = Vector(3, 13, 18)
 # print(v6[3])
 
-    # с __setitem__ можем создать разряженный список, где индексы не вошедшие в диапазон заполняются нулями [2, 4, 5, 5, 0, 0, 0, 0, 0, 25]
-    def __setitem__(self, key, value):
-        if 1 <= key <= len(self.values):
-            self.values[key-1] = value
-        elif key>len(self.values):
-            diff = key - len(self.values)
-            self.values.extend([0]*diff)
-            self.values[key-1] = value
-        else:
-            raise IndexError('Индекс за границами нашей коллекции')
-v7 = Vector(2, 4, 5, 5)
-v7[10] = 25
-print(v7)
+# с __setitem__ можем создать разряженный список, где индексы не вошедшие в диапазон заполняются нулями [2, 4, 5, 5, 0, 0, 0, 0, 0, 25]
+#     def __setitem__(self, key, value):
+#         if 1 <= key <= len(self.values):
+#             self.values[key-1] = value
+#         elif key>len(self.values):
+#             diff = key - len(self.values)
+#             self.values.extend([0]*diff)
+#             self.values[key-1] = value
+#         else:
+#             raise IndexError('Индекс за границами нашей коллекции')
+# v7 = Vector(2, 4, 5, 5)
+# v7[10] = 25
+# print(v7)
