@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2d3832-7df7-435d-85bd-a81a842eb244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/les23_iter_next.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les26_inherit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_24_getitem_setitem.py" beforeDir="false" afterPath="$PROJECT_DIR$/l_24_getitem_setitem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     "Python.excel.executor": "Run",
     "Python.l_24_getitem_setitem.executor": "Run",
     "Python.les23_iter_next.executor": "Run",
+    "Python.les26_inherit.executor": "Run",
     "Python.les_5_practic.executor": "Run",
     "Python.les_7_Point.executor": "Run",
     "Python.less_22_call.executor": "Run",
@@ -59,6 +59,7 @@
     "Python.main.executor": "Run",
     "Python.notes.executor": "Run",
     "Python.practic.executor": "Run",
+    "Python.practic_iter.executor": "Run",
     "Python.scratch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
