@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2d3832-7df7-435d-85bd-a81a842eb244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/les26_inherit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les26_inherit_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les28_inherit_extend.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10.py" beforeDir="false" afterPath="$PROJECT_DIR$/les10_get_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11.py" beforeDir="false" afterPath="$PROJECT_DIR$/les11_property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson13.py" beforeDir="false" afterPath="$PROJECT_DIR$/les13_classmethod_staticmethod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8.py" beforeDir="false" afterPath="$PROJECT_DIR$/les8_mono_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9.py" beforeDir="false" afterPath="$PROJECT_DIR$/les9_public_protected_private.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +45,11 @@
     "Python.Property_practic.executor": "Run",
     "Python.excel.executor": "Run",
     "Python.l_24_getitem_setitem.executor": "Run",
+    "Python.les13_classmethod_staticmethod.executor": "Run",
     "Python.les23_iter_next.executor": "Run",
     "Python.les26_inherit.executor": "Run",
+    "Python.les26_inherit_2.executor": "Run",
+    "Python.les28_inherit_extend.executor": "Run",
     "Python.les_5_practic.executor": "Run",
     "Python.les_7_Point.executor": "Run",
     "Python.less_22_call.executor": "Run",
