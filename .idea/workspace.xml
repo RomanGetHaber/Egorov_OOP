@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2d3832-7df7-435d-85bd-a81a842eb244" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les34_exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/les34_exception.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,11 @@
     "Python.les26_inherit.executor": "Run",
     "Python.les26_inherit_2.executor": "Run",
     "Python.les28_inherit_extend.executor": "Run",
+    "Python.les29_Delegeting.executor": "Run",
+    "Python.les30_multiple_inheritance.executor": "Run",
+    "Python.les32_slots.executor": "Run",
+    "Python.les33_slots_property_inherit.executor": "Run",
+    "Python.les34_exception.executor": "Run",
     "Python.les_5_practic.executor": "Run",
     "Python.les_7_Point.executor": "Run",
     "Python.less_22_call.executor": "Run",
@@ -63,6 +68,7 @@
     "Python.practic.executor": "Run",
     "Python.practic_iter.executor": "Run",
     "Python.scratch.executor": "Run",
+    "Python.scratch_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
